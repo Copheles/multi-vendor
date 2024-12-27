@@ -26,7 +26,7 @@ export class AuthController {
     sendTokenCookie(res, accessToken);
 
     res.status(HTTP_STATUS.CREATED).json({
-      message: 'User login successfully'
+      message: 'User login successfully!'
     });
   }
 
